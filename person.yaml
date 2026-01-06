@@ -1,0 +1,33 @@
+- name: ragu
+  dob: 07-07-2000
+   #this is mapping
+  address: 
+   city: hyd
+   country: india
+   dno: 108
+   street: ganesh nagar
+   #list of addresses
+  addresses: 
+  - type: perm
+    city: hyd
+    country: india
+  - type: current
+    city: california
+    country: us
+  # 2 person info  
+- name: vinay
+  dob: 10-10-2020
+   #this is mapping
+  address: 
+   city: hyd
+   country: india
+   dno: 100
+   street: ram nagar
+   #list of addresses
+  addresses: 
+  - type: perm
+    city: hyd
+    country: india
+  - type: current
+    city: california
+    country: us
