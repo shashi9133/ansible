@@ -1,4 +1,4 @@
-- name: variables from promt
+ - name: variables from promt
   hosts: localhost
   vars_promt: 
   - name: USERNAME
