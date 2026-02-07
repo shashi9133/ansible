@@ -1,0 +1,16 @@
+- name: raju
+  dob: 14-14-14
+  address:
+   city: hyd
+   country: india
+   dno: 104
+   street: ramnagar
+
+  address:
+  - type: prem
+     city: hyd
+     country: india
+  - type:
+     city: california
+     country: us
+     
