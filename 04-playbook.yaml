@@ -1,0 +1,13 @@
+- name: variable in ansible
+  hosts: mongodb
+  vars:
+    course: devops
+    trainer: nani
+    duration: 60hrs
+  tasks:
+  - name: print hello world
+    ansible.builtin.debug:
+     msg: "hello i am learning devops"
+  - name: print in variables
+    ansible.builtin.debug:
+     msg: "i am learning {{course}},trainer is {{trainer}}, and duration is {{duration}}"
