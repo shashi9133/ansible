@@ -1,11 +1,11 @@
  - name: variables from promt
    hosts: localhost
-   vars_promt: 
+   vars_prompt: 
    - name: USERNAME
-     promt: pls enter name
+     prompt: pls enter name
      private: false
    - name: PASSWORD
-     promt: pls enter PASSWORD
+     prompt: pls enter PASSWORD
      private: true
    tasks:
    - name: printing variables
