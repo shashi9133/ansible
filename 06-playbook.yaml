@@ -1,6 +1,6 @@
-- name: input values
-  hosts: mongodb
-  vars_promt:
+- name: variables from promt
+  hosts: localhost
+  vars_promt: 
   - name: USERNAME
     promt: pls enter name
     private: false
@@ -10,4 +10,4 @@
   tasks:
   - name: printing variables
     ansible.builtin.debug:
-     msg: "username: {{USERNAME}}, password {{PASSWORD}}"
+     msg: "username: {{USERNAME}}, password: {{PASSWORD}}"
