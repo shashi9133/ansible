@@ -3,7 +3,6 @@
   vars_files:
   - variables.yaml
   tasks:
-
   - name: print variables
-    ansible.duiltin.debug:
+    ansible.builtin.debug:
      msg: "we are learning {{NAME}}, duration is: {{DURATION}}"
