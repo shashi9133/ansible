@@ -1,6 +1,6 @@
 - name: variables from files
   hosts: mongodb
-  vars_file:
+  vars_files:
   - variables.yaml
   tasks:
   - name: print variables
